@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'RedHatDisplay700';
+    src: url("../font/RedHatDisplay-Bold.ttf");
+}
+@font-face {
+    font-family: 'RedHatDisplay650';
+    src: url("../font/RedHatDisplay-ExtraBold.ttf");
+}
+@font-face {
+    font-family: 'RedHatDisplay500';
+    src: url("../font/RedHatDisplay-Medium.ttf");
+}
+@font-face {
+    font-family: 'RedHatDisplay400';
+    src: url("../font/RedHatDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: 'RedHatDisplay800';
+    src: url("../font/RedHatDisplay-Black.ttf");
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url("../font/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family: 'Poppins600';
+    src: url("../font/Poppins-SemiBold.ttf");
+}
