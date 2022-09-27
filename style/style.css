@@ -146,7 +146,7 @@ body {
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
-    height: 2500px;
+    height: 5400px;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -337,3 +337,168 @@ body {
 }
 
 /* Team */
+
+
+/* graduates */
+
+.graduates__inner {
+    display: flex;
+    gap: 20px;
+}
+
+.graduates__item {
+    margin-bottom: 20px;
+}
+
+.graduates__title {
+    font-size: 64px;
+    line-height: 57px;
+    color: #0B1135;
+    font-family: var(--RedHatDisplay700);
+    margin-top: 140px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* graduates */
+
+/* Contact */
+
+.contact__inner {
+    height: 266px;
+    border-radius: 10px;
+    background: url("../img/vector.png") var(--blue);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 190px;
+    box-shadow: 0px 10px 50px #B4B3FC;
+}
+
+.contact__title {
+    font-size: 44px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: var(--RedHatDisplay700);
+    width: 545px;
+}
+
+.contact__btn {
+    width: 234px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 85px;
+    font-size: 24px;
+    box-shadow: 0px 34px 40px rgba(44, 45, 109, 0.2);
+    text-decoration: none;
+    color: #000000;
+    font-family: var(--RedHatDisplay700);
+}
+
+.contact__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socila__link {
+    background-color: var(--blue);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__top-logo {
+    margin-left: 48px;
+}
+
+.footer__top-social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 48px;
+}
+
+.footer__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.footer__line {
+    margin-top: 40px;
+    background: var(--darkblue);
+    height: 1px;
+    border: 0;
+    opacity: 0.15;
+    margin-bottom: 40px;
+}
+
+/* Contact */
+
+/* Footer */
+.footer__bottom-title {
+    color: var(--darkblue);
+    font-family: var(--RedHatDisplay700);
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 37px;
+}
+
+.footer__bottom-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__bottom-list {
+    font-size: 16px;
+    gap: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__link {
+    color: var(--darkblue);
+    text-decoration: none;
+    font-family: var(--RedHatDisplay400);
+}
+
+.footer__bottom-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__bottom-gmail {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--RedHatDisplay400);
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer__bottom-phone {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--RedHatDisplay700);
+    text-decoration: none;
+    color: #000;
+}
+
+.footer__copyright {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-family: var(--RedHatDisplay700);
+    margin-top: 50px;
+}
+
+/* Footer */
